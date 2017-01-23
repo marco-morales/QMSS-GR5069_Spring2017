@@ -55,7 +55,7 @@ careers:
 * Wickham, Hadley. 2016._ggplot2: Elegant Graphics for Data Analysis, Second Ed_. New York, NY: Springer.
 * Conway, Drew and John Myles White. 2012. _Machine Learning for Hackers: Case Studies and Algorithms to Get You Started_. Boston, MA: O'Reilly Media.
 
-The Wiki on this repository will contain additional information and resources related to each week's material and other relevant topics. Make sure to check it regularly.
+The [Wiki](https://github.com/marco-morales/QMSS-GR5069/wiki) on this repository will contain additional information and resources related to each week's material and other relevant topics. Make sure to check it regularly.
 
 
 ### To actively participate on this course
