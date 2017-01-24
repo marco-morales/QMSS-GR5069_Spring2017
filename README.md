@@ -2,10 +2,10 @@
 
 # QMSS G5069 -  TOPICS IN APPLIED DATA SCIENCE FOR SOCIAL SCIENTISTS
 
-[Marco Morales](mailto://mam2519@columbia.edu), Columbia University
+[Marco Morales](mailto:mam2519@columbia.edu), Columbia University
 
-This repository is a companion to the course __Topics in Applied Data
-Science for Social Scientists__ taught at the
+This repository is a companion to the course **Topics in Applied Data
+Science for Social Scientists** taught at the
 [Quantitative Methods in the Social Sciences](http://qmss.columbia.edu/)
 program over the Spring of 2017.
 
@@ -15,7 +15,7 @@ repository contains additional information and resources related to
 each week's material and other relevant topics. Make sure to check it
 regularly. 
 
-### Overview
+## Overview
 
 In his now classic [Venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram), Drew Conway described **Data Science** as sitting at
 the intersection between **good hacking skills**, **math
@@ -53,7 +53,7 @@ and model estimation. Some mathematics, statistics, econometrics and
 algebra will also be assumed.
 
 
-### Course Resources
+## Course Resources
 
 There are no required textbooks for this course, but you might find
 these to be very useful resources for the course and later in your
@@ -66,7 +66,7 @@ careers:
 * [Conway, Drew and John Myles White. 2012. _Machine Learning for Hackers: Case Studies and Algorithms to Get You Started_. Boston, MA: O'Reilly Media.](http://shop.oreilly.com/product/0636920018483.do)
 
 
-### To actively participate on this course
+## To actively participate on this course
 
 By the second session, make sure to have the latest versions of
 [__R__](https://www.r-project.org/), [__RStudio__](https://www.rstudio.com/), and
