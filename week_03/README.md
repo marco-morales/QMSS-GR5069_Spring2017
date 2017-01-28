@@ -11,8 +11,7 @@ These three readings synthesize much of the current state of the art on what we 
 
 
 
-If you need a refresher on Time Series forecasting, you can start by reading this nice retrospect: [25 Years of Time Series Forecasting](http://dx.doi.org.ezproxy.cul.columbia.edu/10.1016/j.ijforecast.2006.01.001). Also, make sure to look into [Forecasting: principles and practice](https://www.otexts.org/fpp) for an intro-level book-length reference, or  
-[Time Series Analysis for the Social Sciences](http://www.cambridge.org/us/academic/subjects/politics-international-relations/research-methods-politics/time-series-analysis-social-sciences?format=PB&isbn=9780521691550) for a deeper book-length treatment. 
+If you need a refresher on Time Series forecasting, you can start by reading this nice retrospect: [25 Years of Time Series Forecasting](http://dx.doi.org.ezproxy.cul.columbia.edu/10.1016/j.ijforecast.2006.01.001). Also, make sure to look into [Forecasting: principles and practice](https://www.otexts.org/fpp) for an intro-level book-length reference, or [Time Series Analysis for the Social Sciences](http://www.cambridge.org/us/academic/subjects/politics-international-relations/research-methods-politics/time-series-analysis-social-sciences?format=PB&isbn=9780521691550) for a deeper book-length treatment. 
 
 For a deeper dive on the theory underlying Time Series, consult [Econometric Analysis of Cross Section and Panel Data](https://mitpress.mit.edu/books/econometric-analysis-cross-section-and-panel-data) or [Econometric Analysis](https://www.pearsonhighered.com/program/Greene-Econometric-Analysis-7th-Edition/PGM305107.html). 
 
