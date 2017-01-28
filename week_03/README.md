@@ -2,8 +2,8 @@
 
 These three readings synthesize much of the current state of the art on what we know about forecasting:
 
-* a [piece](/readings/Armstrong2001.pdf) by J. Scott Armstrong providing steps and principles to evaluate forecasts based on dense stack of academic research. 
-* another [piece](/readings/Armstrong2012.pdf) by Armstrong on the differences between fitting models and generating forecasts
+* a [piece](readings/Armstrong2001.pdf) by J. Scott Armstrong providing steps and principles to evaluate forecasts based on dense stack of academic research. 
+* another [piece](readings/Armstrong2012.pdf) by Armstrong on the differences between fitting models and generating forecasts
 * make sure to skim through this [piece](readings/Armstrong_etal2015.pdf) by Armstrong and colleagues compiling principles that summarize current knowledge on forecasting 
 
 # Complementary readings 
