@@ -9,6 +9,6 @@ You may want to skim through some of David's [most recent work](http://researchd
 
 David's list of suggested readings prior to his talk:
 
-* a NYTimes' Upshot [piece](https://www.nytimes.com/2016/10/06/upshot/when-you-hear-the-margin-of-error-is-plus-or-minus-3-percent-think-7-instead.html?_r=0)
+* a NYTimes' Upshot [piece](https://www.nytimes.com/2016/10/06/upshot/when-you-hear-the-margin-of-error-is-plus-or-minus-3-percent-think-7-instead.html?_r=0) on survey margin of error 
 * one of his [posts](http://predictwise.com/blog/2016/11/pollfish-election-2016/) on polls conducted in Pollfish 
 * another [post](http://predictwise.com/blog/2016/11/markets-converge-to-polls/) on market convergence to polls
