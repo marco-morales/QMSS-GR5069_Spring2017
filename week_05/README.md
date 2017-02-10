@@ -7,9 +7,11 @@ These two readings will provide breadth and depth for this week:
   [Andrew Gelman](http://www.stat.columbia.edu/~gelman/) on the
   virtues of graphs relative to tables. When you read it, remember
   that it was written as
+  
 > a series of attacks on graphical methods in the voice of a
 > hypothetical old-school analytical statistician or
-> social scientist. 
+> social scientist.
+
 * a couple of chapters([5 - The Eye and the Visual Brain](readings/Cairo2013_ch5.pdf) and [6 - Visualizing for the Mind](readings/Cairo2013_ch6.pdf)) from
   [Alberto Cairo](http://albertocairo.com/)'s book to
   understand the cognitive aspect of visualizations as means to
@@ -88,5 +90,5 @@ principles for graphing
   [Calling Bullshit course](http://callingbullshit.org/tools/tools_misleading_axes.html)
   on graph axes
 * many good pieces of advice from Karl Broman; check his
-  [taks Github](github.com/kbroman/Talk_Graphs) regularly for good
+  [talks Github](github.com/kbroman/Talk_Graphs) regularly for good
   graph advice
