@@ -44,43 +44,42 @@ The manipulated dataset `ConfrontationsData_170209.csv` contains the following v
 
 Variable |  description 
 --- | --- 
-
 `event.id` | a unique id for every "event" in the database
 `unix.timestamp` | UNIX (numeric) timestamp  
-date | date when the "event" took place 
-state_code | a unique numeric code per state as defined by INEGI 
-state      | full state name as defined by INEGI
-state.abbr | state name abbreviation as defined by INEGI 
-mun_code  | a unique numeric code per municipality as defined by INEGI
-municipality | full municipality name as defined by INEGI
-detained | number of people detained in the event
-total.people.dead | number of people killed in the event
-military.dead | number Army personnel killed in the event
-navy.dead | number Navy personnel killed in the event
-federal.police.dead | number Federal Police personnel killed in the event
-afi.dead | number AFI (Federal Investigation Agency) personnel killed in the event
-state.police.dead | number state police personnel killed in the event
-ministerial.police.dead | number ministerial police personnel killed in the event
-municipal.police.dead | number municipal police personnel killed in the event
-public.prosecutor.dead | number public prosecutors killed in the event
-organized.crime.dead | number alleged criminals  killed in the event
-civilian.dead | number civilians killed in the event
-total.people.wounded | number of people wounded in the event
-military.wounded | number of Army personnel wounded in the event
-navy.wounded | number of Navy personnel wounded in the event
-federal.police.wounded | number of Federal Police personnel wounded in the event
-afi.wounded | number of AFI personnel wounded in the event
-state.police.wounded | number of state police personnel wounded in the event
-ministerial.police.wounded | number of ministerial police personnel wounded in the event
-municipal.police.wounded | number of municipal police personnel wounded in the event
-public.prosecutor.wounded | number of public prosecutors wounded in the event
-organized.crime.wounded | number of alleged criminals wounded in the event
-civilian.wounded | number of civilians wounded in the event
-long.guns.seized | number of long guns seized in the event
-small.arms.seized | number of small arms seized in the event
-cartridge.sezied | number of cartridged seized in the event
-clips.seized | number of clips seized in the event
-vehicles.seized | number vehicles seized in the event
+`date` | date when the "event" took place 
+`state_code` | a unique numeric code per state as defined by INEGI 
+`state`      | full state name as defined by INEGI
+`state.abbr` | state name abbreviation as defined by INEGI 
+`mun_code`  | a unique numeric code per municipality as defined by INEGI
+`municipality` | full municipality name as defined by INEGI
+`detained` | number of people detained in the event
+`total.people.dead` | number of people killed in the event
+`military.dead` | number Army personnel killed in the event
+`navy.dead` | number Navy personnel killed in the event
+`federal.police.dead` | number Federal Police personnel killed in the event
+`afi.dead` | number AFI (Federal Investigation Agency) personnel killed in the event
+`state.police.dead` | number state police personnel killed in the event
+`ministerial.police.dead` | number ministerial police personnel killed in the event
+`municipal.police.dead` | number municipal police personnel killed in the event
+`public.prosecutor.dead` | number public prosecutors killed in the event
+`organized.crime.dead` | number alleged criminals  killed in the event
+`civilian.dead` | number civilians killed in the event
+`total.people.wounded` | number of people wounded in the event
+`military.wounded` | number of Army personnel wounded in the event
+`navy.wounded` | number of Navy personnel wounded in the event
+`federal.police.wounded` | number of Federal Police personnel wounded in the event
+`afi.wounded` | number of AFI personnel wounded in the event
+`state.police.wounded` | number of state police personnel wounded in the event
+`ministerial.police.wounded` | number of ministerial police personnel wounded in the event
+`municipal.police.wounded` | number of municipal police personnel wounded in the event
+`public.prosecutor.wounded` | number of public prosecutors wounded in the event
+`organized.crime.wounded` | number of alleged criminals wounded in the event
+`civilian.wounded` | number of civilians wounded in the event
+`long.guns.seized` | number of long guns seized in the event
+`small.arms.seized` | number of small arms seized in the event
+`cartridge.sezied` | number of cartridged seized in the event
+`clips.seized` | number of clips seized in the event
+`vehicles.seized` | number vehicles seized in the event
 
 
 ## Summary statistics for the dataset
