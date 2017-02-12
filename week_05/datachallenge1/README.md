@@ -11,16 +11,28 @@ PPD claims that a lengthier and more detailed database was leaked anonymously to
 
 Based on this new data, PPD's director concludes that  
 
-> 86.1% of dead civilians dead who presumably participated in confrontations with federal armed forces were killed in events of "perfect lethality" where there were only dead and no wounded. [...] Mexico has the terrible situation of having lethality indices of 2.6. The lethality index of the Federal Police is 2.6 dead for every wounded, the Navy's reaches 17.3 dead for eavery wounded, and the Army's is 9.1 dead for every wounded. 
+> 86.1% of dead civilians who presumably participated in confrontations with federal armed forces were killed in events of "perfect lethality" where there were only dead and no wounded. [...] Mexico has the terrible situation of having lethality indices of 2.6. The lethality index of the Federal Police is 2.6 dead for every wounded, the Navy's reaches 17.3 dead for eavery wounded, and the Army's is 9.1 dead for every wounded. 
 
-We will be using this new behavioral dataset for the following three weeks and a couple of data challenges. Before class on 2/15:
+We will be using this new behavioral dataset for the following three weeks and a couple of data challenges. 
 
-* make sure you can run the munging script `Gather_ConfrontationsData_170209.R` and you understand what's going on
-* read the data dictionary
+Some things to do before class on 2/15:
+
+* make sure you can run the munging script [`Gather_ConfrontationsData_170209.R`](src/data/Gather_ConfrontationsData_170209.R) and you understand what's going on
+* read the [data dictionary](references/README.md)
 * start exploring the dataset `ConfrontationsData_170209.csv`
 * bring questions on the dataset if you have any (I'll be your sherpa on this one)
 
 Data Challenge 1 (due on 2/22 at 6PM) will be posted *here* right before class on 2/15.
 
+<!--
 
+## Data Challenge (due on 2/22 at 6PM)
 
+With this new dataset 
+
+* Can you replicate the 86.1%? the overall lethality ratio? the ratios for the Federal Police, Navy and Army? 
+	* What are you assuming?
+	* 
+* What additional information would you need to better understand the data?
+* 
+-->
