@@ -10,7 +10,7 @@ The original government definition - to which PDD subscribes - defines **Confron
 
 * at least three (3) organized crime members, or less if using military-grade equipment and explosives  
 * violent resistance to armes forces and other government authorities
-* a response to an "aggression" wehere fire is exchanged
+* a response to an "aggression" where fire is exchanged
 * events where criminals cannot be subdued on a single tactical manouver
 * extraordinarily, skirmishes within penitentiaries involving organized crime
 
