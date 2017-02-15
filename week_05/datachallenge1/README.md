@@ -22,17 +22,25 @@ Some things to do before class on 2/15:
 * start exploring the dataset `ConfrontationsData_170209.csv`
 * bring questions on the dataset if you have any (I'll be your sherpa on this one)
 
-Data Challenge 1 (due on 2/22 at 6PM) will be posted *here* right before class on 2/15.
 
-<!--
+<!-- Data Challenge 1 (due on 2/22 at 6PM) will be posted *here* right before class on 2/15. -->
 
-## Data Challenge (due on 2/22 at 6PM)
 
-With this new dataset 
+## Data Challenge 1 (due on 2/22 at 6PM)
 
-* Can you replicate the 86.1%? the overall lethality ratio? the ratios for the Federal Police, Navy and Army? 
-	* What are you assuming?
-	* 
-* What additional information would you need to better understand the data?
-* 
--->
+With this new dataset, please address the following: 
+
+1. Can you replicate the 86.1% number? the overall lethality ratio? the ratios for the Federal Police, Navy and Army? 
+    * Provide a visualization that presents this information neatly. 
+    * Please show the exact computations you used to calculate them (most likely than not, you'll need to do some additional munging in the data to get there)
+    * If you could not replicate them, please show why and the difference relative to your own computations (also, include a neat graph that summarizes this)
+	* Be very explicit: What are you assuming to generate these computations?
+
+2. Now you know the data more intimately. Think a little bit more about it, and answer the following questions:
+  * Is this the right metric to look at? Why or why not? 
+  * What is the "lethality index" showing explicitly? What is it not showing? What is the definition assuming?
+  * With the same available data, can you think of an alternative way to capture the same construct? Is it "better"? 
+  * What additional information would you need to better understand the data?
+  * What additional information could help you better capture the construct behind the "lethality index"
+
+This is a team assignment. Please create a file on your team GitHub repo where you answer the challenge, including links to your code, graphs. 

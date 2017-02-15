@@ -84,7 +84,7 @@ is also available and a worthy read.
 There are also many suggestions out there for what (not) to do with
 graphs. A few interesting resources
 
-* [Hyndmans](http://robjhyndman.com/hyndsight/graphics/) recommended
+* [Hyndman's](http://robjhyndman.com/hyndsight/graphics/) recommended
 principles for graphing
 * some comments from the
   [Calling Bullshit course](http://callingbullshit.org/tools/tools_misleading_axes.html)
