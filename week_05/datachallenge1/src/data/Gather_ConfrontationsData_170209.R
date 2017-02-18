@@ -37,7 +37,7 @@ library(stringr)        # easier manipulation of strings
 # their own branches individually
 # NOTE that specifying your path will be different in Windows
 
-path <- "~//Dropbox//GR5069_Spring2017//GR5069//week_05//visualization_lab"
+path <- "~//Dropbox//GR5069_Spring2017//GR5069//week_05//datachallenge1"
 
 # define additional paths for files you will use. In each case, determine
 # appropriate additions to the path
