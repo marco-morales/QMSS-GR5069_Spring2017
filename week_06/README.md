@@ -25,6 +25,6 @@ especially Appendices A and C. We will be working with matrices
 when computing and graphing interactions, so you'll be much better
 off having a quck brush up.
 
-There is a number of texts that delve deep into interactions (including Greene's [book](https://www.amazon.com/Econometric-Analysis-7th-William-Greene/dp/0131395386). But a favorite go to is a site 
+There is a number of texts that delve deep into interactions (including Greene's [book](https://www.amazon.com/Econometric-Analysis-7th-William-Greene/dp/0131395386)). But a favorite go to is a site 
 that Matt Golder created: [Interactions](http://people.ischool.berkeley.edu/~hal/). 
 All things interactions, an invaluable resource.
