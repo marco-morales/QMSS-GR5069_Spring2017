@@ -53,8 +53,7 @@ This is a team assignment. Please create a file on your team GitHub repo where y
 ## Data Challenge 2 (due on 3/8 at 6PM)
 
 
-1. Ask two (2) questions that might help you understand better the dynamics of violence contained on our datas et. Apply one algorithm per question and share your insights from each analysis. [50 pts]  
-(remember: a non-finding is also a finding! It tells you whether a question is woth pursuing further or not.)
+1. Ask two (2) questions that might help you understand better the dynamics of violence contained on our datas et. Apply one algorithm per question and share your insights from each analysis. [50 pts]  Remember: a non-finding is also a finding! It tells you whether a question is woth pursuing further or not.
 	* perform the necessary transformations in your data - if any are needed, and explain why you did that
 	* show the output from your analysis in a consumable form
 	* be explicit about the limitations of your anaylisis, due to estimation or to the data itself
