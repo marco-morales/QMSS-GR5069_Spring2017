@@ -53,7 +53,8 @@ This is a team assignment. Please create a file on your team GitHub repo where y
 ## Data Challenge 2 (due on 3/8 at 6PM)
 
 
-1. From the available data, ask two (2) questions that might help you understand better the dynamics of violence contained on it. Apply one algorithm per question and share your insights from each analysis. [50 pts]  (remember: a non-finding is also a finding! It tells you whether a question is woth pursuing further or not.)
+1. Ask two (2) questions that might help you understand better the dynamics of violence contained on our datas et. Apply one algorithm per question and share your insights from each analysis. [50 pts]  
+(remember: a non-finding is also a finding! It tells you whether a question is woth pursuing further or not.)
 	* perform the necessary transformations in your data - if any are needed, and explain why you did that
 	* show the output from your analysis in a consumable form
 	* be explicit about the limitations of your anaylisis, due to estimation or to the data itself
@@ -66,7 +67,7 @@ This is a team assignment. Please create a file on your team GitHub repo where y
 	* make sure to also include your code 
 
 2. Formulate two (2) conditional hypotheses that you seek to investigate with the data. One of your hypotheses should condition on two variables (as the example on the slides), and the other should condition on three variables. [50 pts]
-    * formulate each one of your hypotheses explicitly in substantive terms (as opposed to statistcial terms) using a 2-3 lines at most.
+    * formulate each one of your hypotheses explicitly in substantive terms (as opposed to statistical terms) using 2-3 lines at most
 	* show exactly how each one of your hypotheses translates into the marginal effect that you will seek to estimate from the data 
 	* show the output from your analysis in a consumable form
 	* show all your computations to estimate the corresponding marginal effect and its standard error
