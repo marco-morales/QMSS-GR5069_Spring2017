@@ -20,11 +20,8 @@
 rm(list=ls(all=TRUE))   # cleans everything in the workspace
 
 library(readr)          # easier reading of flat files
-library(caret)          # ML package
-
-
-# or, you could just load the tidyverse 
-# library(tidyverse)
+library(caret)          # classification and regresssion training package
+library(randomForest)   # Random Forests package
 
 # ::::::: SOME USEFUL DEFINITIONS :::::::::::::::::::::::::::::::::::::::::::::  
 
@@ -34,10 +31,13 @@ library(caret)          # ML package
 
 path <- "~//Dropbox//GR5069_Spring2017//GR5069//week_07//datachallenge2"
 
+
 # define additional paths for files you will use. In each case, determine
 # appropriate additions to the path
 
 inFileName1   <- "data//processed/AllViolenceData_170216.csv"     # cleaned data on violence
+outFileName1  <- "graphs//RF_VarImportance.pdf"       
+outFileName2  <- "graphs//RF_MSE.pdf"  
 
 # ::::::: APPLY INITIAL DEFINITIONS ::::::::::::::::::::::::::::::::::::::::::: 
 
@@ -147,3 +147,48 @@ summary(
 
 
 # 3) RANDOM FOREST
+
+# creates a random sample to split data into training and testing sets
+TrainingSet <- createDataPartition(y = AllData$organized.crime.dead,
+                                p = .7, 
+                                list = FALSE)
+
+training <- AllData[TrainingSet, ]   # creates the training data set
+testing  <- AllData[-TrainingSet, ]  # creates the testing data set
+
+#fits model on training set
+RandomForestFit <- train(organized.crime.dead ~ organized.crime.wounded +
+                             afi + army + navy + federal.police +
+                             long.guns.seized+ small.arms.seized + 
+                             clips.seized + cartridge.sezied, 
+                         data = training,
+                         method = "rf",       # defines Random Forests
+                         importance = TRUE,   # keeps variable importance
+                         prox=TRUE,
+                         preProc = c("center", "scale") # standardizes variables
+                         )
+
+# gets initial output from model
+print(RandomForestFit)
+
+# gets a description of the model
+print(RandomForestFit$finalModel)
+
+# gets predictions on the test set
+RandomForestPredict <- predict(RandomForestFit, testing)
+
+
+# :: A quick look to evaluate the model
+
+# gets variable importance
+VIMP <- varImp(RandomForestFit)
+pdf(outFileName1) 
+plot(VIMP)
+dev.off()
+
+
+# plots MSE of the model 
+pdf(outFileName2) 
+plot(RandomForestFit$finalModel, main = "")
+dev.off()
+
