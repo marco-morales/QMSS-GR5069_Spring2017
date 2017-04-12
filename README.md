@@ -93,6 +93,6 @@ You have two options to access the materials on this repository:
 You can also subscribe to the repository.This will send you updates
 each time new changes are pushed to the repository.
 
-
+# Thanks to [Huiyu Xiaho](mailto:huiyu.xiao@columbia.edu) for assistance in drafting code for class examples and visualizations.
 
 
