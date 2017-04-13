@@ -25,7 +25,7 @@ library(tidyverse)        # pretty graphs made easy
 # their own branches individually
 # NOTE that specifying your path will be different in Windows
 
-path <- "~//Dropbox//GR5069_Spring2017//GR5069//week_13//datachallenge3"
+# path <- YOUR PATH HERE
 
 # define additional paths for files you will use. In each case, determine
 # appropriate additions to the path
@@ -35,6 +35,8 @@ inFileName1  <- "data//processed//ViolencePanelData_170412.csv"    # processed p
 outFileName1 <- "graphs//ViolencePanel_LineGraph1.pdf"             # output file name
 outFileName2 <- "graphs//ViolencePanel_LineGraph2.pdf"             # output file name
 outFileName3 <- "graphs//ViolencePanel_ViolinPlot1.pdf"            # output file name
+outFileName4 <- "graphs//ViolencePanel_PACF.pdf"                   # output file name
+
 
 # ::::::: APPLY INITIAL DEFINITIONS ::::::::::::::::::::::::::::::::::::::::::: 
 
@@ -73,7 +75,6 @@ panel %>%
          width = 300, height = 180, units = "mm", dpi = 300)
 
 
-
 # plot time series of organized.crime.dead by each one of 10 selected municipalities (10 plot)
 ggplot(panel) +
   geom_line(aes(x = date, y = organized.crime.dead)) +
@@ -92,3 +93,12 @@ ggplot(panel) +
   theme_minimal() +
   ggsave(file = outFileName3,
          width = 300, height = 180, units = "mm", dpi = 300)
+
+
+
+
+# get initial sense of the lags of organized.crime.dead (Y)
+pdf(outFileName4)
+pacf(panel$organized.crime.dead, lag.max = 40, main = "")
+dev.off()
+

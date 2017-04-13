@@ -160,3 +160,33 @@ beta1 <- unname(coef)[4]
 
 
 
+# ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+# :::::::::::::::::::::: MODEL RECONSIDERED :::::::::::::::::::::::::::::::::::
+
+
+# find correct specification for the lags for the pooled model 
+summary(ols.4 <- lm(organized.crime.dead ~
+                      organized.crime.dead.L1 + 
+                      organized.crime.dead.L2 + 
+                      organized.crime.dead.L3 + 
+                      organized.crime.dead.L4 + 
+                      organized.crime.dead.L5 + 
+                      organized.crime.wounded +
+                      organized.crime.wounded.L1 ,
+                    organized.crime.wounded.L2 +
+                      organized.crime.wounded.L3 +
+                      organized.crime.wounded.L4 +
+                      organized.crime.wounded.L5,
+                    data = panel))
+
+# based on the coefficients on lags in ols.4
+summary(ols.5 <- lm(organized.crime.dead ~
+                      organized.crime.dead.L1 + 
+                      organized.crime.dead.L2 + 
+                      organized.crime.wounded +
+                      organized.crime.wounded.L1 +
+                      factor(municipality),
+                    data = panel))
+
+
+

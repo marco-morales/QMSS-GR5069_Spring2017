@@ -36,9 +36,8 @@ library(plm)
 # their own branches individually
 # NOTE that specifying your path will be different in Windows
 
-#path <- "~//Dropbox//GR5069_Spring2017//GR5069//week_13//datachallenge3"
+#path <- YOUR PATH HERE
 
-path <- "C:\\Users\\206455361\\Dropbox (Personal)\\GR5069_Spring2017\\GR5069\\week_13\\datachallenge3"
 
 # define additional paths for files you will use. In each case, determine
 # appropriate additions to the path
@@ -138,7 +137,17 @@ panel$date <- as.Date(panel$date, origin = "1970-01-01")
 panel <- panel %>%
   group_by(id) %>%
   mutate(organized.crime.dead.L1 = lag(organized.crime.dead),
-         organized.crime.wounded.L1 = lag(organized.crime.wounded))
+         organized.crime.dead.L2 = lag(organized.crime.dead, 2),
+         organized.crime.dead.L3 = lag(organized.crime.dead, 3),
+         organized.crime.dead.L4 = lag(organized.crime.dead, 4),
+         organized.crime.dead.L5 = lag(organized.crime.dead, 5),
+         organized.crime.wounded.L1 = lag(organized.crime.wounded),
+         organized.crime.wounded.L2 = lag(organized.crime.wounded, 2),
+         organized.crime.wounded.L3 = lag(organized.crime.wounded, 3),
+         organized.crime.wounded.L4 = lag(organized.crime.wounded, 4),
+         organized.crime.wounded.L5 = lag(organized.crime.wounded, 5))
+
+
 
 # :::::::::::::::::::::: SAVING PROCESSED FILE ::::::::::::::::::::::::::::::::
 
